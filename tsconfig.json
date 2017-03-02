@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true,
+    "target": "es5",
+    "module": "commonjs",
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "rootDir": "lib",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "lib": ["es5", "es2015.promise", "dom", "es2015.collection"]
+  },
+  "filesGlob": [
+    "!node_modules/**",
+    "!dist/**"
+  ]
+}
